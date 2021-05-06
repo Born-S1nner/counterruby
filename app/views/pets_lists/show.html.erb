@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Specie:</strong>
+  <%= @pets_list.specie %>
+</p>
+
+<p>
+  <strong>Owner:</strong>
+  <%= @pets_list.owner %>
+</p>
+
+<p>
+  <strong>Pet name:</strong>
+  <%= @pets_list.pet_name %>
+</p>
+
+<p>
+  <strong>Owned date:</strong>
+  <%= @pets_list.owned_date %>
+</p>
+
+<%= link_to 'Edit', edit_pets_list_path(@pets_list) %> |
+<%= link_to 'Back', pets_lists_path %>
