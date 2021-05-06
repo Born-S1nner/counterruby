@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
   resources :pets_lists
-  get 'pets/index'
+  root 'pets#index'
 end
