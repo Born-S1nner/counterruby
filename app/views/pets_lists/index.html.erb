@@ -21,7 +21,6 @@
         <td><%= pets_list.pet_name %></td>
         <td><%= pets_list.owned_date %></td>
         <td><%= link_to 'Show', pets_list %></td>
-        <td><%= link_to 'Edit', edit_pets_list_path(pets_list) %></td>
         <td><%= link_to 'Destroy', pets_list, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
@@ -30,4 +29,5 @@
 
 <br>
 
-<%= link_to 'New Pets List', new_pets_list_path %>
+<%= link_to 'Add Pet', new_pets_list_path %>
+<%= link_to 'back', '/' %>
