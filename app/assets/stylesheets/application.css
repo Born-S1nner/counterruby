@@ -22,3 +22,16 @@ body {
   width: 90%;
   align-items: center;
 }
+.actions {
+  align-items: center;
+  margin: 20px 0px;
+}
+.actionButton {
+  background-color: #0bd4d4;
+  width: 45%;
+  font-size: 20px;
+  text-decoration: underline;
+  height: 2em;
+  align-content: center;
+
+}

@@ -13,15 +13,14 @@
 
   <div class="formClass">
     <%= form.text_field :specie, placeholder:"Type of Specie", class:"inputForm" %>
-
+    <br/>
     <%= form.text_field :owner, placeholder:"Name of Owner", class:"inputForm" %>
-
+    <br/>
     <%= form.text_field :pet_name, placeholder:"Name of Pet", class:"inputForm" %>
-
+    <br/>
     <%= form.text_field :owned_date, placeholder:"Date of purchase(mm/dd/yy)", class:"inputForm" %>
-
     <div class="actions">
-      <%= form.submit %>
+      <%= form.submit class:"actionButton" %>
     </div>
   </div>
 <% end %>
