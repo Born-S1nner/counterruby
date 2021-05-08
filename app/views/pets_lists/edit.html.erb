@@ -1,6 +1,6 @@
 <h1>Editing Pets List</h1>
 
 <%= render 'form', pets_list: @pets_list %>
-
-<%= link_to 'Show', @pets_list %> |
-<%= link_to 'Back', pets_lists_path %>
+<br/>
+<%= link_to 'Show', @pets_list, class:"showLink" %> |
+<%= link_to 'Back', pets_lists_path, class:"backLink" %>

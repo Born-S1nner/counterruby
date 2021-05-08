@@ -20,5 +20,6 @@
   <%= @pets_list.owned_date %>
 </p>
 
-<%= link_to 'Edit', edit_pets_list_path(@pets_list) %> |
-<%= link_to 'Back', pets_lists_path %>
+<%= link_to 'Edit', edit_pets_list_path(@pets_list), class:"editLink" %> |
+<%= link_to 'Delete', @pets_list, method: :delete, data: { confirm: 'Are you sure?' }, class:"deleteLink" %> |
+<%= link_to 'Back', pets_lists_path, class:"backLink" %>

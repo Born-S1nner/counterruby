@@ -22,16 +22,49 @@ body {
   width: 90%;
   align-items: center;
 }
-.actions {
-  align-items: center;
-  margin: 20px 0px;
-}
 .actionButton {
   background-color: #0bd4d4;
   width: 45%;
   font-size: 20px;
   text-decoration: underline;
   height: 2em;
-  align-content: center;
+  margin: 20px 0px;
+  margin-left: 20%;
+}
 
+.addLink {
+  color: white;
+  background-color: green;
+  border: 3px solid white;
+  padding: 5px 10px;
+  border-radius: 20%;
+  text-decoration: none;
+}
+.backLink {
+  color: black;
+  background-color: red;
+  border: 3px solid black;
+  padding: 5px 10px;
+  border-radius: 20%;
+  text-decoration: none;
+}
+.showLink {
+  color: black;
+
+}
+.deleteLink {
+  color:red;
+  text-decoration: none;
+  background-color: white;
+  border: 3px solid black;
+  padding: 5px 10px;
+  border-radius: 20%;
+}
+.editLink {
+  color: white;
+  text-decoration: none;
+  background-color: blue;
+  border: 3px solid black;
+  padding: 5px 10px;
+  border-radius: 20%;
 }
