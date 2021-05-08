@@ -11,27 +11,17 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :specie %>
-    <%= form.text_field :specie %>
-  </div>
+  <div class="formClass">
+    <%= form.text_field :specie, placeholder:"Type of Specie", class:"inputForm" %>
 
-  <div class="field">
-    <%= form.label :owner %>
-    <%= form.text_field :owner %>
-  </div>
+    <%= form.text_field :owner, placeholder:"Name of Owner", class:"inputForm" %>
 
-  <div class="field">
-    <%= form.label :pet_name %>
-    <%= form.text_field :pet_name %>
-  </div>
+    <%= form.text_field :pet_name, placeholder:"Name of Pet", class:"inputForm" %>
 
-  <div class="field">
-    <%= form.label :owned_date %>
-    <%= form.text_field :owned_date %>
-  </div>
+    <%= form.text_field :owned_date, placeholder:"Date of purchase(mm/dd/yy)", class:"inputForm" %>
 
-  <div class="actions">
-    <%= form.submit %>
+    <div class="actions">
+      <%= form.submit %>
+    </div>
   </div>
 <% end %>
