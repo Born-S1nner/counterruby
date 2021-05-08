@@ -2,7 +2,7 @@
 
 <h1>Pets Lists</h1>
 
-<table>
+<table class="tableLayout">
   <thead>
     <tr>
       <th>Specie</th>
@@ -13,7 +13,7 @@
     </tr>
   </thead>
 
-  <tbody>
+  <tbody class="tablebody">
     <% @pets_lists.each do |pets_list| %>
       <tr>
         <td><%= pets_list.specie %></td>

@@ -1,25 +1,25 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Specie:</strong>
-  <%= @pets_list.specie %>
-</p>
+<div class="card">
+  <h3>Pet's Name: <%= @pets_list.pet_name %></h3>
+  <hr/>
+  <p>
+    <strong>Specie:</strong>
+    <%= @pets_list.specie %>
+  </p>
 
-<p>
-  <strong>Owner:</strong>
-  <%= @pets_list.owner %>
-</p>
+  <p>
+    <strong>Owner:</strong>
+    <%= @pets_list.owner %>
+  </p>
 
-<p>
-  <strong>Pet name:</strong>
-  <%= @pets_list.pet_name %>
-</p>
+  <p>
+    <strong>Owned date:</strong>
+    <%= @pets_list.owned_date %>
+  </p>
 
-<p>
-  <strong>Owned date:</strong>
-  <%= @pets_list.owned_date %>
-</p>
-
+</div>
+<br/>
 <%= link_to 'Edit', edit_pets_list_path(@pets_list), class:"editLink" %> |
 <%= link_to 'Delete', @pets_list, method: :delete, data: { confirm: 'Are you sure?' }, class:"deleteLink" %> |
 <%= link_to 'Back', pets_lists_path, class:"backLink" %>
